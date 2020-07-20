@@ -43,7 +43,7 @@ namespace assday5.Controllers
        
 
         [HttpPost("AddReview")]
-        public IActionResult AddGrade(AddReview data)
+        public IActionResult AddReview(AddReview data)
         {
             return Ok(repository.AddRev(data));
         }
